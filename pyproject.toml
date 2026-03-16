@@ -1,0 +1,12 @@
+[project]
+name = "active-rocket-sim"
+version = "0.1.0"
+description = "Closed-loop 6-DoF active rocket simulation scaffold"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
